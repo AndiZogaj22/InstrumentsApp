@@ -1,0 +1,40 @@
+body{
+    background: url();
+}
+        #div1{
+            height:900px;
+            width:1000px;
+            background-color:rgb(243, 167, 167);
+            margin:0;
+            }
+        #div2{
+            height:900px;
+            width:1000px;
+            background-color:rgb(183, 247, 183);
+           
+            left:320px;
+            bottom:300px;
+            }
+         #div3{
+            height:900px;
+            width:1000px;
+            background-color:rgb(241, 241, 125);
+           
+            bottom:280px;
+            }
+        #div4{
+            height:900px;
+            width:1000px;
+            background-color:rgb(149, 149, 224);
+            left:320px;
+            bottom:580px;
+            }
+            .container{
+                display: flex;
+                margin-top: 180px;
+            }
+            label{
+                font-size: 60px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    
