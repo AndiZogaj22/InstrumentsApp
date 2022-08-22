@@ -2,32 +2,40 @@
             height:500px;
             width:450px;
             background-color:rgb(243, 167, 167);
+           border-radius: 45px;
+           border: salmon;
            
             }
         #div2{
             height:500px;
             width:450px;
             background-color:rgb(183, 247, 183);
+            border-radius: 45px;
+            border: salmon;
             
             }
          #div3{
             height:500px;
             width:450px;
             background-color:rgb(241, 241, 125);
-           
+            border-radius: 45px;
+            border: salmon;
            
             }
         #div4{
             height:500px;
             width:450px;
             background-color:rgb(149, 149, 224);
-            
+            border-radius: 45px;
+            border: salmon;
             }
             .container{
                   display: flex;
                   flex-direction: row;
                   justify-content: space-evenly;
-                  margin-top: 190px;
+                  margin-top: 160px;
+                  
+                  
             }
             label{
                 font-size: 60px;
@@ -49,11 +57,31 @@
                 color: black;
               }
               
-              a:hover {
-                text-decoration: underline;
-              }
+             
               
               a:active {
                 text-decoration: underline;
                 color: black;
+              }
+              .text{
+                display: flex;
+                justify-content: center;
+                position: center;
+                padding-top: 50%;
+                font-size: 45px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+              }
+              .intro{
+               margin-bottom: 50px;
+               height: 50%;
+              }
+               h1{
+                font-size: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+              p{
+                font-size: 35px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
               }
