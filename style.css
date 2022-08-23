@@ -1,32 +1,32 @@
     #div1{
-            height:500px;
-            width:450px;
+            height:350px;
+            width:350px;
             background-color:rgb(243, 167, 167);
-           border-radius: 45px;
+           border-radius: 50%;
            border: salmon;
            
             }
         #div2{
-            height:500px;
-            width:450px;
+          height:350px;
+          width:350px;
             background-color:rgb(183, 247, 183);
-            border-radius: 45px;
+            border-radius: 50%;
             border: salmon;
             
             }
          #div3{
-            height:500px;
-            width:450px;
+          height:350px;
+          width:350px;
             background-color:rgb(241, 241, 125);
-            border-radius: 45px;
+            border-radius: 50%;
             border: salmon;
            
             }
         #div4{
-            height:500px;
-            width:450px;
+          height:350px;
+          width:350px;
             background-color:rgb(149, 149, 224);
-            border-radius: 45px;
+            border-radius: 50%;
             border: salmon;
             }
             .container{
@@ -67,7 +67,8 @@
                 display: flex;
                 justify-content: center;
                 position: center;
-                padding-top: 50%;
+                padding-top: 40%;
+                padding-right: 5px;
                 font-size: 45px;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -85,3 +86,19 @@
                 font-size: 35px;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
               }
+              #div2:hover {
+                background-color: rgb(83, 148, 246);
+              }
+              #div3:hover {
+                background-color: rgb(83, 148, 246);
+              }
+              #div4:hover {
+                background-color: rgb(83, 148, 246);
+              }
+              #div1:hover {
+                background-color: rgb(83, 148, 246);
+                
+              }
+            
+            
+            
