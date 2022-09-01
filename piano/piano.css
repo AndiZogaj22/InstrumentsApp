@@ -16,6 +16,7 @@ body {
   display: flex;
   position: relative;
   margin-left: 4px;
+  margin-right: 120px;
 }
 
 .white-key {

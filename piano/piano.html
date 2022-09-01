@@ -4,7 +4,33 @@
     <title>Piano</title>
     <link rel="stylesheet" href="piano.css" type="text/css">
   </head>
+  <style>
+    .zgjidh{
+      position: relative;
+      display: inline;
+      margin-right: 100px;
+      
+
+    }
+    .title{
+      color: azure;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      display: block;
+      margin-bottom: 4px;
+    }
+  </style>
   <body>
+    
+    <div class="zgjidh">
+      <label for="Themes" class="title">Themes</label>
+    <select name="Themes" id="themes">
+      <option value="Dark">Dark</option>
+      <option value="Organo">Organo</option>
+      <option value="80s Synth">80s Synth</option>
+      <option value="Rumble">Rumble</option>
+    </select>
+  </div>
     <div class="piano">
       <button class="white-key C4-key"></button>
       <button class="black-key Db4-key"></button>
