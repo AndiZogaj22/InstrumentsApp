@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/22a8da6582.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <section class="intro">
+import './App.css'
+
+function App() {
+  return (
+    <div className="App">
+      <section class="intro">
         <h1>FreeInstruments</h1>
         <p>Hello ! Welcome to FreeInstruments enjoy free digital instruments with an evergrowing kit and much more exiting things cooming soon...</p>
     </section>
@@ -35,5 +28,8 @@
 <section>
     <i class="fa-solid fa-triangle-instrument"></i>
 </section>
-</body>
-</html>
+    </div>
+  );
+}
+
+export default App;
